@@ -161,7 +161,8 @@ padding: 188px 0;
         display: block;
         margin: 0 auto;
         font-family: "Roboto", sans-serif;
-    cursor: pointer}
+    cursor: pointer;
+     min-width: 169px}
 
             .button:hover,
             .button:focus {
@@ -273,7 +274,7 @@ padding-bottom: 120px;}
      }
 
 .team-content {
-    padding: 32px 16px;
+padding: 32px 0
 }
 
 /* -----Portfolio------ */
@@ -298,9 +299,7 @@ padding-bottom: 120px;}
       }
 
 .portfolio-item {
-    border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
         background: #fff;
         width: calc((100% - 2 * 24px) / 3);
 }
@@ -326,23 +325,23 @@ padding-bottom: 120px;}
         }
 
 
-        /*  */
+        /* footer */
 
 .bottom {
       background: #2e2f42;
       padding: 100px 0;
   }
 
-  .logo-and-text {
-    max-width: 264px;
-  }
+ .logo { 
+    display: inline-block;
+margin-bottom: 16px; }
 
   .bottom-text {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
+    max-width: 264px
   }
 
   .logo-bottom {
